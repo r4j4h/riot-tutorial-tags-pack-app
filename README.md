@@ -126,7 +126,7 @@ The above representation will be converted in an ```array``` od ```string``` con
 For example the above coniguration for the branch
 ```prod``` will be converted into the following ```array```.
 
-```
+```jaavscript
 [
   "http://localhost:3001/scripts/tags-878e8b2b.js",
   "http://localhost:3001/scripts/vendor-b2ccfe02.js",
