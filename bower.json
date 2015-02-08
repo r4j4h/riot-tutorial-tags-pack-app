@@ -1,0 +1,23 @@
+{
+  "name": "union-ractive-project-template",
+  "version": "0.0.1",
+  "main": "/index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "modernizr": "2.8.x",
+    "json3": "3.2.x",
+    "es5-shim": "2.0.x",
+    "bootstrap": "3.x.x",
+    "font-awesome": "4.3.x",
+    "less.js": "1.7.x",
+    "Grapnel.js": "0.4.2",
+    "rsvp": "3.0.13",
+    "riotjs": "2.x",
+    "nprogress": "0.1.x"
+  },
+  "devDependencies": {}
+}

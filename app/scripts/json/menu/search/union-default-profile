@@ -1,0 +1,53 @@
+{
+    "link": {
+        "rel": "self",
+        "href": "/sitemanager/rest/sitemanager/menu/union/default",
+        "title": "menus",
+        "contentType": "application/vnd.sitemanager.menu+json"
+    },
+    "items": [
+        {
+            "link": {
+                "target": "profile",
+                "rel": "hyperlink",
+                "href": "#/profile",
+                "title": "Profile",
+                "contentType": "application/vnd.sitemanager.menu+json",
+                "id": 20
+            },
+            "menuId": 20,
+            "items": [
+                {
+                    "link": {
+                        "id": 21,
+                        "parentId": 20,
+                        "rel": "hyperlink",
+                        "href": "#/profile",
+                        "title": "Profile",
+                        "menuId": 21
+                    }
+                },
+                {
+                    "link": {
+                        "id": 22,
+                        "parentId": 20,
+                        "rel": "hyperlink",
+                        "href": "#/contacts",
+                        "title": "Contacts",
+                        "menuId": 20
+                    }
+                },
+                {
+                    "link": {
+                        "id": 23,
+                        "parentId": 20,
+                        "rel": "hyperlink",
+                        "href": "#/mailbox",
+                        "title": "Mailbox",
+                        "menuId": 23
+                    }
+                }
+            ]
+        }
+    ]
+}

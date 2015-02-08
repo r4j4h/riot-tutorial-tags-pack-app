@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Riot vue</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+  <body>
+    <app></app>
+
+    <script src="scripts/app-922b3d2b.js"></script>
+
+    <scripts env="prod"></scripts>
+
+    <script>
+    riot.mount('scripts', {
+      dev: {
+        "http://localhost:3001/": {
+          "bower_components/": [
+            "marked/marked.min.js"
+          ],
+          "scripts/": [
+            "markdown.js",
+            "githubcommits.js",
+            "treeview.js",
+            "svggraph.js",
+            "imageslider.js"
+          ]
+        }
+      },
+      prod: {
+        "http://localhost:3001/": {
+          "scripts/": [
+            "tags-878e8b2b.js",
+            "vendor-b2ccfe02.js"
+          ]
+        }
+      }
+    })
+
+    riot.mount('app', [
+      {link:"#markdown", title:"Markdown Editor", vuelink:"http://vuejs.org/examples/index.html"},
+      {link:"#githubcommits", title:"Github Commits", vuelink:"http://vuejs.org/examples/commits.html"},
+      {link:"#treeview", title:"Tree View", vuelink:"http://vuejs.org/examples/tree-view.html"},
+      {link:"#svggraph", title:"SVG Graph", vuelink:"http://vuejs.org/examples/svg.html"},
+      {link:"#imageslider", title:"Image Slider Component", vuelink:"http://vuejs.org/examples/image-slider.html"}
+    ])
+    </script>
+  </body>
+</html>
