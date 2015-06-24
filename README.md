@@ -1,6 +1,6 @@
 # Riot tutorial tags package
 
-In this tutorial we will see how It is possible lo import compiled tags pack from external servers. The tutorial is composed by to projects hosted in to github repositories: [**riot-tutorial-tags-pack-app**](https://github.com/ivan-saorin/riot-tutorial-tags-pack-app) and [**riot-tutorial-tags-pack-lib**](https://github.com/ivan-saorin/riot-tutorial-tags-pack-lib).
+In this tutorial we will see how It is possible lo import compiled tags pack from external servers. The tutorial is composed by two projects hosted in to github repositories: [**riot-tutorial-tags-pack-app**](https://github.com/ivan-saorin/riot-tutorial-tags-pack-app) and [**riot-tutorial-tags-pack-lib**](https://github.com/ivan-saorin/riot-tutorial-tags-pack-lib).
 
 The added values of the approach is that it allows the complete SLM. In fact in development mode the tags are watched and compiled singularly by the gulp-riot plugin. The main application will access them on a one by one basis.
 
